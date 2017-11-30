@@ -10,7 +10,7 @@
 		"url": "https://github.com/NicoLaval/psg-web.git"
 	},
 	"scripts": {
-		"server": "node ./api/server.js",
+		"server": "node ./back-end-api/server.js",
 		"start:dev": "react-scripts start",
 		"start": "concurrently \"yarn server\" \"yarn start:dev\"",
 		"build": "react-scripts build",

@@ -75,6 +75,7 @@ server.post('/survey', function(req, res, next) {
 		todos.splice(position, 1);
 	}
 	investigated.push(data);
+	console.log(investigated);
 	res.send(200);
 	next();
 });
