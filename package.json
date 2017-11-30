@@ -1,0 +1,32 @@
+{
+	"name": "psg-web",
+	"version": "0.1.0",
+	"description": "Web app to build surveys forms",
+	"homepage": "./",
+	"author": "NicoLaval",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NicoLaval/psg-web.git"
+	},
+	"scripts": {
+		"server": "node ./api/server.js",
+		"start:dev": "react-scripts start",
+		"start": "concurrently \"yarn server\" \"yarn start:dev\"",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"generated-survey": "^0.3.0",
+		"material-ui": "^0.19.4",
+		"react": "^16.1.1",
+		"react-dom": "^16.1.1",
+		"react-router-dom": "^4.2.2",
+		"react-scripts": "1.0.17"
+	},
+	"devDependencies": {
+		"concurrently": "^3.5.1",
+		"restify": "^4.3.0"
+	}
+}

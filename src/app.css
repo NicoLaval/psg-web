@@ -1,0 +1,23 @@
+.page-title {
+	border: 2px solid #ee3467; /*457DBB*/
+	background-color: #ffffff;
+	color: black;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.survey-list {
+	font-size: 200%;
+	margin-top: 50px;
+}
+
+.circularProgress {
+	margin-top: 200px;
+	margin-left: 40%;
+}
+
+.centered {
+	text-align: center;
+}
