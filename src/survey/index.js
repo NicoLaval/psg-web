@@ -5,7 +5,7 @@ import { GeneratedSurvey } from 'generated-survey';
 function Survey({ todo, survey, codeList, onClickBack, onClickSave }) {
 	return (
 		<div className="mui-container">
-			<Title title={'Enquête en cours'} />
+			<Title title={`${survey.label}`} />
 			<div className="mui-row">
 				<GeneratedSurvey
 					todo={todo}
