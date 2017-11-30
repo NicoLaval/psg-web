@@ -11,7 +11,7 @@ class SurveyContainer extends Component {
 		const { idHousehold } = props.match.params;
 		this.onClickBack = () =>
 			this.setState({ redirect: `/surveys/${idHousehold}` });
-		this.onClickSave = data => postSurvey(data).then(res => console.log(res));
+		this.onClickSave = data => postSurvey(data);
 	}
 
 	componentDidMount() {

@@ -22,7 +22,7 @@ Runs the app in the development mode.<br>
 
 The page will reload if you make edits.<br>
 
-A node [Restify](https://github.com/restify/node-restify) server will be emulated on `http://localhost:9999` to simulate the behavior of the back-end.
+A node [Restify](https://github.com/restify/node-restify) server will be emulated on `http://localhost:9999` to simulate the behavior of the back-end.<br>
 Mock data can be changed in the `/back-end-api` folder (requiring to restart the server if it is already running).
 
 ### `yarn run build`
